@@ -1,0 +1,22 @@
+*{
+    background: linear-gradient(90deg, #e0c3fcff, #8ec5fcff);
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+}
+
+*>div{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.external{
+    font-family: 'algerian';
+    width: min-content;
+    position: absolute;
+    bottom: 0%;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: saturate(150%) blur(10px) brightness(95%);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+}
