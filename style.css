@@ -1,0 +1,29 @@
+*{
+    color: #ffffff;
+}
+
+:root{
+    background: linear-gradient(90deg, #8f7ef2, #00d1f2);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.box{
+    font-family: 'Gill Sans MT';
+    font-size: 3rem;
+    padding: 4rem;
+    margin: 15px;
+    border-radius: 10%;
+    z-index: auto;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: saturate(150%) blur(100px) brightness(99%);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    display: inline-flex;
+}
+
+.box:hover{
+    font-size: 4rem;
+    transform: rotate(2deg);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid #ffffff;
+}
