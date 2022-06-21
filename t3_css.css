@@ -1,0 +1,61 @@
+*{
+    text-align: center;
+    background: #000000;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+.dis{
+    font-family: 'Times New Roman';
+    font-size: 7rem;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.pos{
+    font-family: 'algerian';
+    font-size: 7em;
+    border: .1cm solid black;
+    padding: 2rem;
+    position: relative;
+}
+
+.flex{
+    font-family: cursive;
+    font-size: 7rem;
+    border: .04in solid black;
+    padding: .1em;
+    flex: inherit;
+}
+
+.vis{
+    font-family: 'Gill Sans MT';
+    font-size: 7vh;
+    border: .08ch solid black;
+    padding: 2rem;
+    visibility: visible;
+}
+
+.dis:hover{
+    font-family: 'algerian';
+    font-size: 7em;
+    border-radius: 2rem;
+    color: #ffffff;
+    position: relative;
+}
+
+.pos:hover{
+    border-radius: 2rem;
+    position: absolute;
+    z-index: 500;
+    left: 40%;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    backdrop-filter: saturate(150%) blur(10px) brightness(95%);
+}
+
+.vis:hover{
+    color: #ffffff;
+    visibility: hidden;
+}
